@@ -165,7 +165,7 @@ body {
     font-size: 16px;
     font-family: 'Quicksand', sans-serif;
     text-decoration: none;
-    background: linear-gradient(to right, #6dd5fa, #2980b9);
+    background: linear-gradient(to right, #56ccf2, #2f80ed);
     color: #fff;
     border: none;
     border-radius: 30px;
@@ -174,9 +174,54 @@ body {
   }
   
   .hero-button:hover {
-    background: linear-gradient(to right, #2980b9, #6dd5fa);
+    background: linear-gradient(to right,#56ccf2, #2f80ed);
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   }
+  .location-btn {
+    margin-top: 10px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(to right, #56ccf2, #2f80ed);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    
+  }
   
+  .location-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .button-group a,
+  .button-group button {
+    width: 200px;
+    text-align: center;
+  }
+  .about-btn {
+    padding: 12px 25px;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+ 
+        
   
